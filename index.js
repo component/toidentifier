@@ -1,6 +1,8 @@
-// Taken from `http-errors` and put into its own package
-// Convert a string of words to a JavaScript identifier.
-// Created by @dougwilson
+/*!
+ * http-errors
+ * Copyright(c) 2016 Douglas Christopher Wilson
+ * MIT Licensed
+ */
 
 function toIdentifier(str) {
   return str
