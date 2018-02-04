@@ -13,7 +13,6 @@
 
 * [Install](#install)
 * [Usage](#usage)
-* [Contributors](#contributors)
 * [License](#license)
 
 
@@ -40,14 +39,6 @@ const toIdentifier = require('toidentifier');
 console.log(toIdentifier('Bad Request'));
 // outputs "BadRequest"
 ```
-
-
-## Contributors
-
-| Name                           | Website                    |
-| ------------------------------ | -------------------------- |
-| **Douglas Christopher Wilson** |                            |
-| **Nick Baugh**                 | <http://niftylettuce.com/> |
 
 
 ## License
