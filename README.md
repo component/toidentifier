@@ -52,7 +52,7 @@ console.log(toIdentifier('Bad Request'));
 
 ## License
 
-[MIT](LICENSE) © Douglas Christopher Wilson
+[MIT](LICENSE)
 
 
 ##
