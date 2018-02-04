@@ -29,35 +29,34 @@
     "lint-staged": "^4.0.4",
     "nyc": "^11.1.0",
     "prettier": "^1.6.1",
-    "remark-cli": "^4.0.0",
-    "remark-preset-github": "^0.0.6",
     "xo": "^0.19.0"
   },
   "engines": {
     "node": ">=0.6"
   },
   "homepage": "https://github.com/koajs/toidentifier",
-  "keywords": ["to", "identifier"],
+  "keywords": [
+    "to",
+    "identifier"
+  ],
   "license": "MIT",
   "lint-staged": {
     "*.{js,jsx,mjs,ts,tsx,css,less,scss,json,graphql}": [
       "prettier --write --single-quote --trailing-comma none",
       "git add"
-    ],
-    "*.md": ["remark . -qfo", "git add"]
+    ]
   },
   "main": "lib/index.js",
-  "remarkConfig": {
-    "plugins": ["preset-github"]
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/koajs/toidentifier"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
-    "lint": "xo && remark . -qfo",
+    "lint": "xo",
     "precommit": "lint-staged && npm test",
     "test": "npm run build && npm run lint && npm run test-coverage",
     "test-coverage": "cross-env NODE_ENV=test nyc ava",
@@ -66,7 +65,9 @@
   },
   "xo": {
     "extends": "prettier",
-    "plugins": ["prettier"],
+    "plugins": [
+      "prettier"
+    ],
     "parserOptions": {
       "sourceType": "script"
     },
