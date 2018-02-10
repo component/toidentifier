@@ -3,14 +3,11 @@
   "description": "Convert a string of words to a JavaScript identifier",
   "version": "0.0.1",
   "author": "Douglas Christopher Wilson <doug@somethingdoug.com>",
-  "bugs": {
-    "url": "https://github.com/koajs/toidentifier/issues",
-    "email": "niftylettuce@gmail.com"
-  },
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Nick Baugh <niftylettuce@gmail.com> (http://niftylettuce.com/)"
   ],
+  "repository": "component/toidentifier",
   "dependencies": {},
   "ava": {
     "failFast": true,
@@ -32,7 +29,6 @@
   "engines": {
     "node": ">=0.6"
   },
-  "homepage": "https://github.com/koajs/toidentifier",
   "keywords": [
     "to",
     "identifier"
@@ -43,10 +39,6 @@
       "prettier --write --single-quote --trailing-comma none",
       "git add"
     ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/koajs/toidentifier"
   },
   "files": [
     "index.js"

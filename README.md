@@ -1,7 +1,7 @@
 # toidentifier
 
-[![build status](https://img.shields.io/travis/koajs/toidentifier.svg)](https://travis-ci.org/koajs/toidentifier)
-[![code coverage](https://img.shields.io/codecov/c/github/koajs/toidentifier.svg)](https://codecov.io/gh/koajs/toidentifier)
+[![Build Status][travis-image]][travis-url]
+[![Test Coverage][codecov-image]][codecov-url]
 [![code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![made with lass](https://img.shields.io/badge/made_with-lass-95CC28.svg)](https://lass.js.org)
@@ -44,6 +44,11 @@ console.log(toIdentifier('Bad Request'));
 ## License
 
 [MIT](LICENSE)
+
+[codecov-image]: https://img.shields.io/codecov/c/github/component/toidentifier.svg
+[codecov-url]: https://codecov.io/gh/component/toidentifier
+[travis-image]: https://img.shields.io/travis/component/toidentifier/master.svg
+[travis-url]: https://travis-ci.org/component/toidentifier
 
 
 ##
