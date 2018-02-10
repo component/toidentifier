@@ -8,7 +8,6 @@
     "Nick Baugh <niftylettuce@gmail.com> (http://niftylettuce.com/)"
   ],
   "repository": "component/toidentifier",
-  "dependencies": {},
   "ava": {
     "failFast": true,
     "verbose": true
