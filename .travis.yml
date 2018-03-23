@@ -23,5 +23,8 @@ before_install:
   # Update Node.js modules
   - "test ! -d node_modules || npm prune"
   - "test ! -d node_modules || npm rebuild"
+script:
+  - "npm run-script lint"
+  - "npm test"
 after_success:
   npm run coverage
