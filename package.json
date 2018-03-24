@@ -13,8 +13,6 @@
     "eslint": "^4.5.0",
     "eslint-config-prettier": "^2.3.0",
     "eslint-plugin-prettier": "^2.2.0",
-    "husky": "^0.14.3",
-    "lint-staged": "^4.0.4",
     "mocha": "1.21.5",
     "nyc": "^11.1.0",
     "prettier": "^1.6.1",
@@ -28,19 +26,13 @@
     "identifier"
   ],
   "license": "MIT",
-  "lint-staged": {
-    "*.{js,jsx,mjs,ts,tsx,css,less,scss,json,graphql}": [
-      "prettier --write --single-quote --trailing-comma none",
-      "git add"
-    ]
-  },
   "files": [
     "index.js"
   ],
   "scripts": {
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "format": "prettier --write --single-quote --trailing-comma none '*.js' '**/*.js'",
     "lint": "xo",
-    "precommit": "lint-staged && npm test",
     "test": "mocha --reporter spec --bail --check-leaks test/",
     "test-cov": "nyc --reporter=html --reporter=text npm test"
   },
