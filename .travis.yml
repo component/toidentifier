@@ -25,6 +25,6 @@ before_install:
   - "test ! -d node_modules || npm rebuild"
 script:
   - "npm run-script lint"
-  - "npm test"
+  - "npm run-script test-cov"
 after_success:
   npm run coverage
