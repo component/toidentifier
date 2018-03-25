@@ -1,8 +1,9 @@
-const assert = require('assert');
-const toIdentifier = require('..');
 
-describe('toIdentifier', () => {
-  it('should transform "Bad Request" to "BadRequest"', () => {
-    assert.equal(toIdentifier('Bad Request', 'BadRequest'), 'BadRequest');
-  });
-});
+var assert = require('assert')
+var toIdentifier = require('..')
+
+describe('toIdentifier', function () {
+  it('should transform "Bad Request" to "BadRequest"', function () {
+    assert.equal(toIdentifier('Bad Request', 'BadRequest'), 'BadRequest')
+  })
+})
