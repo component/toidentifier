@@ -32,4 +32,4 @@ script:
   - "test   -z $(npm -ps ls nyc) || npm run-script test-cov"
   - "test   -z $(npm -ps ls eslint) || npm run-script lint"
 after_success:
-  - "test ! -z $(npm -ps ls nyc) && npm run coverage"
+  - "test ! -z $(npm -ps ls nyc) && npm install codecov@2 && nyc report --reporter=text-lcov > coverage.lcov && codecov"
