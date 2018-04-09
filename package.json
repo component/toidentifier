@@ -9,7 +9,7 @@
   ],
   "repository": "component/toidentifier",
   "devDependencies": {
-    "codecov": "^2.3.0",
+    "codecov": "2.3.1",
     "eslint": "4.19.1",
     "eslint-config-standard": "11.0.0",
     "eslint-plugin-import": "2.9.0",
@@ -17,7 +17,7 @@
     "eslint-plugin-promise": "3.7.0",
     "eslint-plugin-standard": "3.0.1",
     "mocha": "1.21.5",
-    "nyc": "^11.1.0"
+    "nyc": "11.6.0"
   },
   "engines": {
     "node": ">=0.6"
