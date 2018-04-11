@@ -4,7 +4,20 @@
  * MIT Licensed
  */
 
+/**
+ * Module exports.
+ * @public
+ */
+
 module.exports = toIdentifier
+
+/**
+ * Trasform the given string into a JavaScript identifier
+ *
+ * @param {string} str
+ * @returns {string}
+ * @public
+ */
 
 function toIdentifier (str) {
   return str
