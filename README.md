@@ -8,13 +8,6 @@
 > Convert a string of words to a JavaScript identifier
 
 
-## Table of Contents
-
-* [Install](#install)
-* [Usage](#usage)
-* [License](#license)
-
-
 ## Install
 
 [npm][]:
