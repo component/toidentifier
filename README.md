@@ -17,15 +17,14 @@ This is a [Node.js](https://nodejs.org/en/) module available through the
 $ npm install toidentifier
 ```
 
-## Usage
+## Example
 
 ```js
-const toIdentifier = require('toidentifier');
+var toIdentifier = require('toidentifier')
 
-console.log(toIdentifier('Bad Request'));
-// outputs "BadRequest"
+console.log(toIdentifier('Bad Request'))
+// => "BadRequest"
 ```
-
 
 ## License
 
