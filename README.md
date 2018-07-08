@@ -26,6 +26,20 @@ console.log(toIdentifier('Bad Request'))
 // => "BadRequest"
 ```
 
+## API
+
+This CommonJS module exports a single default function: `toIdentifier`.
+
+### toIdentifier(string)
+
+Given a string as the argument, it will be transformed according to
+the following rules and the new string will be returned:
+
+1. Split into words separated by space characters (`0x20`).
+2. Upper case the first character of each word.
+3. Join the words together with no separator.
+4. Remove all non-word (`[0-9a-z_]`) characters.
+
 ## License
 
 [MIT](LICENSE)
