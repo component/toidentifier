@@ -1,6 +1,7 @@
 # toidentifier
 
 [![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
 [![Build Status][travis-image]][travis-url]
 [![Test Coverage][codecov-image]][codecov-url]
 
@@ -31,6 +32,8 @@ console.log(toIdentifier('Bad Request'))
 
 [codecov-image]: https://img.shields.io/codecov/c/github/component/toidentifier.svg
 [codecov-url]: https://codecov.io/gh/component/toidentifier
+[downloads-image]: https://img.shields.io/npm/dm/toidentifier.svg
+[downloads-url]: https://npmjs.org/package/toidentifier
 [npm-image]: https://img.shields.io/npm/v/toidentifier.svg
 [npm-url]: https://npmjs.org/package/toidentifier
 [travis-image]: https://img.shields.io/travis/component/toidentifier/master.svg
