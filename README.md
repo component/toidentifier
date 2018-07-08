@@ -3,7 +3,6 @@
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Test Coverage][codecov-image]][codecov-url]
-[![made with lass](https://img.shields.io/badge/made_with-lass-95CC28.svg)](https://lass.js.org)
 
 > Convert a string of words to a JavaScript identifier
 
