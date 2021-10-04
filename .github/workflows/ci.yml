@@ -30,6 +30,7 @@ jobs:
         include:
         - name: Node.js 0.6
           node-version: "0.6"
+          npm-i: mocha@1.21.5
           npm-rm: nyc
 
         - name: Node.js 0.8
