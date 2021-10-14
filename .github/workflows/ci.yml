@@ -35,6 +35,7 @@ jobs:
 
         - name: Node.js 0.8
           node-version: "0.8"
+          npm-i: mocha@2.5.3
           npm-rm: nyc
 
         - name: Node.js 0.10
