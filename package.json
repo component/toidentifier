@@ -10,12 +10,12 @@
   "repository": "component/toidentifier",
   "devDependencies": {
     "eslint": "6.8.0",
-    "eslint-config-standard": "13.0.1",
-    "eslint-plugin-import": "2.18.2",
+    "eslint-config-standard": "14.1.1",
+    "eslint-plugin-import": "2.25.2",
     "eslint-plugin-markdown": "1.0.0",
-    "eslint-plugin-node": "9.1.0",
+    "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-standard": "4.0.0",
+    "eslint-plugin-standard": "4.1.0",
     "mocha": "3.5.3",
     "nyc": "11.9.0"
   },
