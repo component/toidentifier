@@ -67,9 +67,11 @@ jobs:
 
         - name: Node.js 4.x
           node-version: "4.9"
+          npm-rm: nyc
 
         - name: Node.js 5.x
           node-version: "5.12"
+          npm-rm: nyc
 
         - name: Node.js 6.x
           node-version: "6.17"
