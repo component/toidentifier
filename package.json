@@ -1,7 +1,7 @@
 {
   "name": "toidentifier",
   "description": "Convert a string of words to a JavaScript identifier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Douglas Christopher Wilson <doug@somethingdoug.com>",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
