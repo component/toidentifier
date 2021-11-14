@@ -24,6 +24,8 @@
   },
   "license": "MIT",
   "files": [
+    "HISTORY.md",
+    "LICENSE",
     "index.js"
   ],
   "scripts": {
