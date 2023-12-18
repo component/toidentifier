@@ -14,7 +14,7 @@
 module.exports = toIdentifier
 
 /**
- * Trasform the given string into a JavaScript identifier
+ * Transform the given string into a JavaScript identifier
  *
  * @param {string} str
  * @returns {string}
