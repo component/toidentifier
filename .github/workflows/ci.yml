@@ -36,6 +36,7 @@ jobs:
         - Node.js 15.x
         - Node.js 16.x
         - Node.js 17.x
+        - Node.js 18.x
 
         include:
         - name: Node.js 0.8
@@ -121,6 +122,9 @@ jobs:
 
         - name: Node.js 17.x
           node-version: "17.1"
+
+        - name: Node.js 18.x
+          node-version: "18"
 
     steps:
     - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
